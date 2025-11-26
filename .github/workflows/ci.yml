@@ -22,10 +22,18 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
     
     - name: Install dependencies
-      run: npm ci
+      run: |
+        npm install
+        # Generate lock file for future runs
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        if [ ! -f package-lock.json ]; then
+          git add package-lock.json
+          git commit -m "chore: add package-lock.json" || true
+          git push || true
+        fi
     
     - name: Run linter
       run: npm run lint --if-present
