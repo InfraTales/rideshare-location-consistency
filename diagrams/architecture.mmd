@@ -1,0 +1,26 @@
+```mermaid
+graph TD
+  DriverApp[Driver Mobile App] --> IoT[IoT Core]
+  IoT --> IngestLambda[Ingestion Lambda]
+  IngestLambda --> DDB[DynamoDB Global Table]
+  DDB --> Streams[DynamoDB Streams]
+  Streams --> Kinesis[Kinesis Streams]
+  Kinesis --> Cache[ElastiCache (Geospatial Index)]
+  Kinesis --> Neptune[Neptune Graph]
+
+  EventBridge[EventBridge (Every 10s)] --> SFN[Step Functions Consistency Check]
+  SFN --> DriftLambda[Drift Detection Lambda]
+  DriftLambda --> Snapshots[S3 Snapshots]
+  Snapshots --> CorrectionLambda[Correction Lambda]
+  CorrectionLambda --> DDB
+  CorrectionLambda --> Cache
+
+  subgraph Observability
+    CW[CloudWatch Metrics & Alarms]
+  end
+
+  IngestLambda --> CW
+  Kinesis --> CW
+  Cache --> CW
+  Neptune --> CW
+```

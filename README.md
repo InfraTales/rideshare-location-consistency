@@ -1,8 +1,10 @@
-# 🚗 Real-Time Location Consistency System for Ride-Sharing
+# InfraTales | Rideshare Location Consistency – Multi-Region CDKTF Architecture
+
+**Production-ready reference architecture for real-time rideshare location consistency on AWS.**
 
 > A production-grade, multi-region location synchronization platform handling 156,000 drivers across 45 cities using AWS CDK for Terraform (CDKTF)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![CDKTF](https://img.shields.io/badge/CDKTF-0.20+-purple.svg)](https://www.terraform.io/cdktf)
 [![AWS](https://img.shields.io/badge/AWS-Multi--Region-orange.svg)](https://aws.amazon.com/)
@@ -381,3 +383,14 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 **⭐ If this helped you learn, please star the repository!**
 
 Built with ❤️ for the cloud engineering community
+
+Rideshare Location Consistency is an open-source project from InfraTales, demonstrating a scalable architecture for real-time location consistency in ride-sharing applications.
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+<div align="center">
+  <a href="https://infratales.com">Website</a> •
+  <a href="https://infratales.com/projects">Projects</a> •
+  <a href="https://infratales.com/premium">Premium</a> •
+  <a href="https://infratales.com/newsletter">Newsletter</a>
+</div>

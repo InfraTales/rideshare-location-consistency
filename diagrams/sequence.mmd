@@ -1,0 +1,20 @@
+```mermaid
+sequenceDiagram
+  participant App as Driver App
+  participant IoT as AWS IoT Core
+  participant Ing as Ingestion Lambda
+  participant DDB as DynamoDB Global Table
+  participant Str as DynamoDB Streams
+  participant Kin as Kinesis Streams
+  participant Cache as ElastiCache
+  participant Graph as Neptune
+
+  App->>IoT: Publish location update (MQTT)
+  IoT->>Ing: Invoke Lambda with message
+  Ing->>DDB: PutItem(driverId, location, ts)
+  DDB-->>Ing: Write success / conditional check
+  DDB-->>Str: Stream record
+  Str->>Kin: PutRecord(location change)
+  Kin->>Cache: Update geospatial index
+  Kin->>Graph: Update proximity graph
+```
