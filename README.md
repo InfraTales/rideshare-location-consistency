@@ -372,25 +372,36 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 - HashiCorp for Terraform
 - The ride-sharing industry for inspiring this architecture
 
+## 👤 Author
+
+**Rahul Ladumor** - Founder of InfraTales
+
+- 🌐 Portfolio: [rahulladumor.in](https://www.rahulladumor.in)
+- ☁️ Blog: [acloudwithrahul.in](https://www.acloudwithrahul.in)
+- 💼 GitHub: [@rahulladumor](https://github.com/rahulladumor)
+- 🏢 Organization: [InfraTales](https://github.com/InfraTales)
+- 📧 Email: rahul.ladumor@infratales.com
+- 💬 LinkedIn: [linkedin.com/in/rahulladumor](https://www.linkedin.com/in/rahulladumor)
+
 ## 📬 Questions?
 
 - **Issues**: Open a GitHub issue
 - **Discussions**: Use GitHub Discussions
-- **Twitter**: [@rahulladumor](https://twitter.com/rahulladumor)
+- **Email**: rahul.ladumor@infratales.com
 
 ---
 
 **⭐ If this helped you learn, please star the repository!**
 
-Built with ❤️ for the cloud engineering community
-
-Rideshare Location Consistency is an open-source project from InfraTales, demonstrating a scalable architecture for real-time location consistency in ride-sharing applications.
-
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <div align="center">
-  <a href="https://infratales.com">Website</a> •
-  <a href="https://infratales.com/projects">Projects</a> •
-  <a href="https://infratales.com/premium">Premium</a> •
-  <a href="https://infratales.com/newsletter">Newsletter</a>
+
+**Built with ❤️ by [InfraTales](https://github.com/InfraTales)**
+
+<a href="https://infratales.com">Website</a> •
+<a href="https://infratales.com/projects">Projects</a> •
+<a href="https://infratales.com/premium">Premium</a> •
+<a href="https://infratales.com/newsletter">Newsletter</a>
+
 </div>
