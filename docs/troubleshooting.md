@@ -129,4 +129,4 @@ Common issues and resolutions for the **Rideshare Location Consistency** stack.
 - Manually delete leftover resources using the console or CLI.
 - Consider extending IaC coverage to include more of the supporting infrastructure.
 
-For deeper troubleshooting details and architectural context, see `ARCHITECTURE.md` and `COST_ANALYSIS.md`.
+For deeper troubleshooting details and architectural context, see the README and cost.md.

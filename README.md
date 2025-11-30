@@ -252,7 +252,7 @@ Follow our [Getting Started Guide](./docs/GETTING_STARTED.md) for a detailed wal
 - [Architecture Guide](./docs/ARCHITECTURE.md) - Detailed architecture with diagrams
 - [Component Documentation](./docs/COMPONENTS.md) - Each component explained
 - [Setup Guide](./docs/SETUP.md) - Complete setup instructions
-- [Deployment Guide](./docs/DEPLOYMENT.md) - Deploy to production
+- [Getting Started Guide](./docs/GETTING_STARTED.md) - Deploy to production
 
 ### Learning Resources
 - [Tutorial: Building the Ingestion Layer](./docs/tutorials/01-ingestion-layer.md)

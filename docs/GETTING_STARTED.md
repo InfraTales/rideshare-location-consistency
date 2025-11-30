@@ -555,7 +555,7 @@ ElastiCache is in a VPC. You need either:
 1. **Learn the Architecture**: Read [ARCHITECTURE.md](./ARCHITECTURE.md)
 2. **Understand Components**: Review [COMPONENTS.md](./COMPONENTS.md)
 3. **Optimize Performance**: Check [PERFORMANCE.md](./PERFORMANCE.md)
-4. **Deploy to Production**: Follow [DEPLOYMENT.md](./DEPLOYMENT.md)
+4. **Deploy to Production**: Follow [DEPLOYMENT.md](../README.md#-quick-start)
 5. **Monitor and Maintain**: See [MONITORING.md](./MONITORING.md)
 
 ## Clean Up
